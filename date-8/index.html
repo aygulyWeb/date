@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>date-8</title>
+</head>
+
+<body>
+
+	<script>
+
+
+		// 8) Выведите на экран количество часов, прошедшее между 1 марта 1988 года и текущим моментом с помощью Date.parse
+
+		let date1 = new Date();
+		let date2 = Date.parse(1988, 2, 1);
+
+		let now = date1.getTime();
+		let result = now - date2;
+
+		console.log(Math.round(result / (1000 * 60 * 60)));
+
+
+
+
+
+
+	</script>
+
+</body>
+
+</html>
